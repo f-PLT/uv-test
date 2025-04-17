@@ -1,0 +1,12 @@
+[project]
+name = "uv-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "nn-example-difficulty",
+]
+
+[tool.uv.sources]
+nn-example-difficulty = { git = "https://github.com/devinkwok/nn_example_difficulty.git" }
