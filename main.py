@@ -1,6 +1,7 @@
 def main():
     print("Hello from uv-test!")
     print("How ar you doing?")
+    print("Do you want to go for a coffee?")
 
 
 if __name__ == "__main__":
